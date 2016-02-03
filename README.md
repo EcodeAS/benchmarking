@@ -8,13 +8,13 @@ AWS SDK for PHP Documentation<br>
 http://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/
 
 
-#Requires<br>
-#AWS account
+#Requirements
+AWS account<br>
 - a VM instance (EC2 or a Elastic Beanstalk instance)
 - S3 storage with an empty bucket. (NB: Very important, since the script completely deletes the bucket contents)
 - API Key and Secret to the S3 account
 
-#Azure account
+Azure account<br>
 - a VM instance (VM or a WebApp)
 - Blob storage account with an empty container. (NB: Very important, since the script completely deletes the container contents)
 - API Key to the Blob account
