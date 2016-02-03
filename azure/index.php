@@ -25,6 +25,8 @@
 		$start = $time;
 		
 		//Delete all blob container before start
+		//Commented for your safety...
+		/*
 			$prefix = '';
 			$blobListOptions = new ListBlobsOptions();
 			$blobListOptions->setPrefix($prefix);
@@ -41,7 +43,8 @@
 					echo '</pre>';
 				}
 			}
-			
+		*/
+		
 		//Output page render time
 			$time = microtime();
 			$time = explode(' ', $time);
