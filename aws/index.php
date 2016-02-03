@@ -34,6 +34,8 @@
 		$start = $time;
 		
 		//Delete all blob container before start
+		//Commented for your safety...
+		/*
 			$dir = 's3://'.$accountCode.'/';
 			$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir));
 			
@@ -47,6 +49,7 @@
 					echo '</pre>';
 				}
 			}
+		*/
 		
 		//Output page render time
 			$time = microtime();
