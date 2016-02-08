@@ -62,9 +62,9 @@
 		
 		//Web image files looped while reading binary data, then copied to blob storage, then read again by image cruncher, then store the returned image binary to blob storage.
 			$filesArray = array(
-				'http://weblabel.com/images/showcases/chair/01234567890123456789_154_3_best.png',
-				'http://weblabel.com/images/showcases/chair/01234567890123456789_225_3_best.png',
-				'http://weblabel.com/images/showcases/chair/01234567890123456789_153_3_best_finish.png'
+				[FIRST IMAGE HOSTED ONLINE],
+				[SECOND IMAGE HOSTED ONLINE],
+				[ETC...]
 			);
 			
 			$counter = 0;
